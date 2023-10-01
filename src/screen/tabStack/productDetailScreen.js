@@ -44,20 +44,7 @@ const ProductDetailScreen = props => {
         <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 20 }}>
           <Text style={{ color: '#000', marginLeft: 20 }}>Price : </Text>
           <Text style={styles.priceStyle}> ${data.price}</Text>
-          {/* <View style={styles.qtyView}>
-            <TouchableOpacity style={styles.buttonStyle} onPress={() => {
-              setQty(qty + 1)
-            }}>
-              <Text style={{ fontSize: 16, fontWeight: '600' }}>+</Text>
-            </TouchableOpacity>
-            <Text style={styles.qty}>{qty}</Text>
-            <TouchableOpacity style={styles.buttonStyle}
-              onPress={() => {
-                setQty(qty - 1)
-              }}>
-              <Text style={{ fontSize: 16, fontWeight: '600' }}>-</Text>
-            </TouchableOpacity>
-          </View> */}
+        
         </View>
       </View>
       <TouchableOpacity style={styles.wishListBtn} onPress={() => {
